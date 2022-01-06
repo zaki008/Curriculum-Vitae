@@ -1,0 +1,26 @@
+#detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#detail h1 {
+  text-align: center;
+  font-weight: 700;
+}
+
+#detail .data {
+  display: flex;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+#detail .data label {
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-right: 10px;
+}
+
+#detail .data p {
+  font-weight: 500;
+}

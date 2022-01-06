@@ -1,0 +1,31 @@
+#list .btn-add {
+  border-radius: 4px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+#list th {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#list td {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Responsive */
+@media only screen and (max-width: 500px) {
+  #list th {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  #list td {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .table {
+    overflow-x: auto;
+  }
+}

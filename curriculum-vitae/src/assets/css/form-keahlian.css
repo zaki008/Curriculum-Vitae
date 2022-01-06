@@ -1,0 +1,42 @@
+.form-keahlian {
+  padding-bottom: 80px;
+}
+
+.form-keahlian .input-skill {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.form-keahlian .another_skill {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.363);
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.form-keahlian input[type='submit'] {
+  position: absolute;
+  right: 20px;
+  bottom: -10px;
+  background-color: #40a9ff;
+  color: white;
+  font-size: 16px;
+  padding: 8px 42px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: -50px;
+  cursor: pointer;
+}
+
+.form-keahlian input[type='submit']:hover {
+  background-color: #096dd9;
+}
